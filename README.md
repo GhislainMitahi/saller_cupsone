@@ -12,20 +12,14 @@
 - ReactJs, tailwindCSS
 - Git, GitHub, Git workflow, Jest
 
-## Deployments
-
-
-## Video Presentation
-
-
 ## Getting Started
 
 ### To have a copy of this project running on your local machine, follow these commands:
 
 - Clone this repo to your local machine
-  -  `git clone git@github.com:aceDavon/job-board-capstone-III
+  -  `git clone git@github.com:GhislainMitahi/saller_cupsone.git
 `
-  - Open the folder "job-board-capstone-III
+  - Open the folder "saller-capstone
  and run `npm install` to install all necesary scripts,
   - Run from your termminal, `npm start` to open the project in your browser.
 
@@ -50,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 - `npx create-react-app ./`
 
-**cd into space-traveler-hub folder, then run from your terminal:**
+**cd into saller-cupstone folder, then run from your terminal:**
 
 - `npm start`
 
