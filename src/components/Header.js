@@ -143,7 +143,7 @@ const Header = () => {
               }}
             >
               <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                The best offer on the market
+                The best offer on the selling
                 {' '}
                 <br />
                 <span className="text-blue-600">for your experience</span>
