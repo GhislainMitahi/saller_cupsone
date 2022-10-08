@@ -29,7 +29,7 @@ const CategoryIndex = () => {
                 className="flex justify-center w-11/12 relative top-16"
                 key={id}
               >
-                <div className="block p-6 rounded-lg shadow-lg bg-white w-64 lg:8/12 grow">
+                <div className="block p-6 rounded-lg shadow-lg w-64 lg:8/12 grow" style={{ backgroundColor: 'white' }}>
                   <div className="border-b px-2 py-1 mb-4 flex flex-col">
                     <span className="text-xs font-thin text-slate-400">
                       {location.display_name}
