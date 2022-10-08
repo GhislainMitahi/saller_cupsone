@@ -116,7 +116,7 @@ const Footer = () => (
       © 2021 Copyright:
       { ' ' }
       <a className="text-gray-800" href="https://github.com/acedavon/">
-        Makoji David
+        Ghislain Mitahi
       </a>
     </div>
   </footer>
