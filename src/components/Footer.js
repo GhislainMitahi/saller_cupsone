@@ -115,7 +115,7 @@ const Footer = () => (
     >
       © 2021 Copyright:
       { ' ' }
-      <a className="text-gray-800" href="https://github.com/acedavon/">
+      <a className="text-gray-800" href="https://github.com/GhislainMitahi/">
         Ghislain Mitahi
       </a>
     </div>
