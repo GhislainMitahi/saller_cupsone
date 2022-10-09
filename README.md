@@ -58,7 +58,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-> coming soon :smile:
+> [Netlify](https://6341552500e30a1e6a21ad79--seller-cupstone.netlify.app/)
+
+
+### GDriv Video
+
+> [video](https://drive.google.com/file/d/1MZgPD0NhSp7F4VlJ0-Oq3zCmRt0057k8/view?usp=sharing)
 
 ## Authors
 
