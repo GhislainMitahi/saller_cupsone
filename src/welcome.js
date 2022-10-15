@@ -14,7 +14,7 @@ const Welcome = () => {
       <p className="text-center capitalize font-thin text-white">
         -- Browse jobs by category --
       </p>
-      <div className="flex justify-center my-4 gap-2 flex-wrap px-6 even:bg-gray-100">
+      <div className="flex bg-[#fe5395] justify-center my-4 gap-2 flex-wrap px-6 ">
         {jobs.length > 0 && status === 'idle' ? (
           jobs.map((x) => {
             const {
@@ -27,29 +27,29 @@ const Welcome = () => {
               salary_is_predicted,
             } = x;
             return (
-              <div className="flex justify-center bg-[#fe5395]" key={id}>
-                <div className="block p-6 rounded-lg shadow-lg bg-[#ec4c8b] even:bg- w-40 lg:w-64 grow">
+              <div className="flex justify-center bg-[#ec4c8b]" key={id}>
+                <div className="block p-6 rounded-lg shadow-lg even:bg- w-40 lg:w-64 grow">
                   <div className="border-b px-2 py-1 mb-4 flex flex-col">
-                    <span className="text-xs font-thin text-slate-400">
+                    <span className="text-xs font-thin text-white">
                       {location.display_name}
                     </span>
-                    <span className="text-xs font-thin text-slate-400">
+                    <span className="text-xs font-thin text-white">
                       {company.display_name}
                     </span>
-                    <span className="text-xs font-thin text-slate-400">
+                    <span className="text-xs font-thin text-white">
                       {category.label}
                     </span>
                   </div>
                   <Link
                     to={`/category/${id}`}
-                    className="text-gray-900 text-base leading-tight font-semibold mb-2"
+                    className="text-white text-base leading-tight font-semibold mb-2"
                   >
                     {title}
                   </Link>
-                  <p className="text-gray-700 text-base mb-4">
+                  <p className="text-white text-base mb-4">
                     {description.slice(0, 120)}
                   </p>
-                  <p className="text-base font-semibold text-black">
+                  <p className="text-base font-semibold text-white">
                     Salary:
                     {salary_is_predicted !== '0' ? (
                       `$ ${x.salary_max}`
