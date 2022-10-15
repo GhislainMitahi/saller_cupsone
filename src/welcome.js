@@ -8,10 +8,10 @@ const Welcome = () => {
   const { search, jobs, status } = useSelector(selectAllJobs);
   return (
     <>
-      <h2 className="text-blue-600 text-center text-4xl font-bold">
+      <h2 className="text-white text-center text-4xl font-bold">
         Jobs Category
       </h2>
-      <p className="text-center capitalize font-thin text-slate-400">
+      <p className="text-center capitalize font-thin text-white">
         -- Browse jobs by category --
       </p>
       <div className="flex justify-center my-4 gap-2 flex-wrap px-6 even:bg-gray-100">
@@ -27,8 +27,8 @@ const Welcome = () => {
               salary_is_predicted,
             } = x;
             return (
-              <div className="flex justify-center" key={id}>
-                <div className="block p-6 rounded-lg shadow-lg bg-white even:bg-gray-100 w-40 lg:w-64 grow">
+              <div className="flex justify-center bg-[#fe5395]" key={id}>
+                <div className="block p-6 rounded-lg shadow-lg bg-[#ec4c8b] even:bg- w-40 lg:w-64 grow">
                   <div className="border-b px-2 py-1 mb-4 flex flex-col">
                     <span className="text-xs font-thin text-slate-400">
                       {location.display_name}
@@ -77,7 +77,7 @@ const Welcome = () => {
             } = x;
             return (
               <div className="flex justify-center" key={id}>
-                <div className="block p-6 rounded-lg shadow-lg bg-white w-40 lg:w-64 grow">
+                <div className="block p-6 rounded-lg shadow-lg bg-[#fe5395] w-40 lg:w-64 grow">
                   <div className="border-b px-2 py-1 mb-4 flex flex-col">
                     <span className="text-xs font-thin text-slate-400">
                       {location.display_name}
