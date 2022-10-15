@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="text-center text-white" style={{ backgroundColor: '#f1f1f1' }}>
+  <footer className="flex justify-center flex-col items-center text-white" style={{ backgroundColor: '#d1447a' }}>
     <div className="container pt-9">
       <div className="flex justify-center mb-9">
-        <a href="#!" className="mr-9 text-gray-800">
+        <a href="#!" className="mr-9 text-gray">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -21,7 +21,7 @@ const Footer = () => (
             />
           </svg>
         </a>
-        <a href="#!" className="mr-9 text-gray-800">
+        <a href="#!" className="mr-9 text-gray">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -38,7 +38,7 @@ const Footer = () => (
             />
           </svg>
         </a>
-        <a href="#!" className="mr-9 text-gray-800">
+        <a href="#!" className="mr-9 text-gray">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -55,7 +55,7 @@ const Footer = () => (
             />
           </svg>
         </a>
-        <a href="#!" className="mr-9 text-gray-800">
+        <a href="#!" className="mr-9 text-gray">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -72,7 +72,7 @@ const Footer = () => (
             />
           </svg>
         </a>
-        <a href="#!" className="mr-9 text-gray-800">
+        <a href="#!" className="mr-9 text-gray">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -89,7 +89,7 @@ const Footer = () => (
             />
           </svg>
         </a>
-        <a href="#!" className="text-gray-800">
+        <a href="#!" className="text-gray">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -110,12 +110,12 @@ const Footer = () => (
     </div>
 
     <div
-      className="text-center text-gray-700 p-4"
+      className="text-center text-gray p-4 w-full"
       style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
     >
       © 2021 Copyright:
       { ' ' }
-      <a className="text-gray-800" href="https://github.com/GhislainMitahi/">
+      <a className="text-white" href="https://github.com/GhislainMitahi/">
         Ghislain Mitahi
       </a>
     </div>
