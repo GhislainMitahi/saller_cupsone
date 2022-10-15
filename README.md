@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-> coming soon :smile:
+> [Netlify deploeyement](https://sallercapstone.netlify.app/)
 
 ## Authors
 
@@ -81,10 +81,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project was inspired to the Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio), thank you for the work done
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
