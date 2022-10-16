@@ -25,8 +25,8 @@ const Header = () => {
 
   return (
     <div>
-      <section className="mb-10">
-        <nav className="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between">
+      <section className="mb-10 bg-[#fe5395]">
+        <nav className="navbar navbar-expand-lg shadow-md py-2 bg-[#ec4c8b] relative flex items-center w-full justify-between text-white">
           <div className="px-6 w-full flex flex-wrap items-center justify-between">
             <div className="flex items-center">
               <button
@@ -42,7 +42,7 @@ const Header = () => {
                   aria-hidden="true"
                   focusable="false"
                   data-prefix="fas"
-                  className="w-5"
+                  className="w-5 text-white"
                   role="img"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
@@ -55,7 +55,7 @@ const Header = () => {
               </button>
               <a className="navbar-brand text-blue-600" href="/">
                 <svg
-                  className="w-5 h-5 ml-2 lg:ml-0 mr-2"
+                  className="w-5 h-5 ml-2 lg:ml-0 mr-2 text-white"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 576 512"
                 >
@@ -73,9 +73,8 @@ const Header = () => {
               <ul className="navbar-nav mr-auto lg:flex lg:flex-row">
                 <li className="nav-item">
                   <a
-                    className="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                    className="nav-link block pr-2 lg:px-2 py-2 tex-white focus:text-white transition duration-150 ease-in-out"
                     href="#!"
-                    data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                   >
                     Dashboard
@@ -83,9 +82,8 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <a
-                    className="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                    className="nav-link block pr-2 lg:px-2 py-2 text-white focus:text-white transition duration-150 ease-in-out"
                     href="#!"
-                    data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                   >
                     Projects
@@ -93,9 +91,8 @@ const Header = () => {
                 </li>
                 <li className="nav-item mb-2 lg:mb-0">
                   <a
-                    className="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
+                    className="nav-link block pr-2 lg:px-2 py-2 text-wite focus:text-wite transition duration-150 ease-in-out"
                     href="#!"
-                    data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
                   >
                     Applications
@@ -106,15 +103,14 @@ const Header = () => {
             <div className="flex items-center lg:ml-auto">
               <button
                 type="button"
-                className="inline-block px-6 py-2.5 mr-2 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
-                data-mdb-ripple="true"
+                className="inline-block px-6 py-2.5 mr-2 bg-transparent text-white font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
                 data-mdb-ripple-color="light"
               >
                 Login
               </button>
               <button
                 type="button"
-                className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                className="inline-block px-6 py-2.5 bg-white text-blue-600 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Sign up for free
               </button>
@@ -124,12 +120,6 @@ const Header = () => {
 
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
-          style={{
-            backgroundPosition: '50%',
-            backgroundImage:
-              "url('https://mdbootstrap.com/img/new/textures/full/142.jpg')",
-            height: '300px',
-          }}
         />
 
         <div className="container mx-auto px-6 md:px-12 xl:px-32">
@@ -137,16 +127,15 @@ const Header = () => {
             <div
               className="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
               style={{
-                marginTop: '-170px',
-                background: 'hsla(0, 0%, 100%, 0.7)',
-                backdropFilter: 'blur(30px)',
+                marginTop: '80px',
+                background: '#ec4c8b',
               }}
             >
-              <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+              <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white">
                 The best offer on the selling
                 {' '}
                 <br />
-                <span className="text-blue-600">for your experience</span>
+                <span className="text-white">for your experience</span>
               </h1>
               <div>
                 <div className="flex justify-center">

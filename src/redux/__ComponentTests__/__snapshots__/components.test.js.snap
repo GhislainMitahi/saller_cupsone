@@ -7,10 +7,10 @@ Object {
     <div>
       <div>
         <section
-          class="mb-10"
+          class="mb-10 bg-[#fe5395]"
         >
           <nav
-            class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between"
+            class="navbar navbar-expand-lg shadow-md py-2 bg-[#ec4c8b] relative flex items-center w-full justify-between text-white"
           >
             <div
               class="px-6 w-full flex flex-wrap items-center justify-between"
@@ -29,7 +29,7 @@ Object {
                 >
                   <svg
                     aria-hidden="true"
-                    class="w-5"
+                    class="w-5 text-white"
                     data-prefix="fas"
                     focusable="false"
                     role="img"
@@ -47,7 +47,7 @@ Object {
                   href="/"
                 >
                   <svg
-                    class="w-5 h-5 ml-2 lg:ml-0 mr-2"
+                    class="w-5 h-5 ml-2 lg:ml-0 mr-2 text-white"
                     viewBox="0 0 576 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -69,8 +69,7 @@ Object {
                     class="nav-item"
                   >
                     <a
-                      class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                      data-mdb-ripple="true"
+                      class="nav-link block pr-2 lg:px-2 py-2 tex-white focus:text-white transition duration-150 ease-in-out"
                       data-mdb-ripple-color="light"
                       href="#!"
                     >
@@ -81,8 +80,7 @@ Object {
                     class="nav-item"
                   >
                     <a
-                      class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                      data-mdb-ripple="true"
+                      class="nav-link block pr-2 lg:px-2 py-2 text-white focus:text-white transition duration-150 ease-in-out"
                       data-mdb-ripple-color="light"
                       href="#!"
                     >
@@ -93,8 +91,7 @@ Object {
                     class="nav-item mb-2 lg:mb-0"
                   >
                     <a
-                      class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                      data-mdb-ripple="true"
+                      class="nav-link block pr-2 lg:px-2 py-2 text-wite focus:text-wite transition duration-150 ease-in-out"
                       data-mdb-ripple-color="light"
                       href="#!"
                     >
@@ -107,15 +104,14 @@ Object {
                 class="flex items-center lg:ml-auto"
               >
                 <button
-                  class="inline-block px-6 py-2.5 mr-2 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
-                  data-mdb-ripple="true"
+                  class="inline-block px-6 py-2.5 mr-2 bg-transparent text-white font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
                   data-mdb-ripple-color="light"
                   type="button"
                 >
                   Login
                 </button>
                 <button
-                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class="inline-block px-6 py-2.5 bg-white text-blue-600 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                   type="button"
                 >
                   Sign up for free
@@ -125,7 +121,6 @@ Object {
           </nav>
           <div
             class="relative overflow-hidden bg-no-repeat bg-cover"
-            style="background-position: 50%; background-image: url(https://mdbootstrap.com/img/new/textures/full/142.jpg); height: 300px;"
           />
           <div
             class="container mx-auto px-6 md:px-12 xl:px-32"
@@ -135,16 +130,16 @@ Object {
             >
               <div
                 class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
-                style="margin-top: -170px; background: rgba(255, 255, 255, 0.7);"
+                style="margin-top: 80px; background: rgb(236, 76, 139);"
               >
                 <h1
-                  class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                  class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white"
                 >
-                  The best offer on the market
+                  The best offer on the selling
                    
                   <br />
                   <span
-                    class="text-blue-600"
+                    class="text-white"
                   >
                     for your experience
                   </span>
@@ -167,8 +162,8 @@ Object {
         </section>
       </div>
       <footer
-        class="text-center text-white"
-        style="background-color: rgb(241, 241, 241);"
+        class="flex justify-center flex-col items-center text-white"
+        style="background-color: rgb(209, 68, 122);"
       >
         <div
           class="container pt-9"
@@ -177,7 +172,7 @@ Object {
             class="flex justify-center mb-9"
           >
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -197,7 +192,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -217,7 +212,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -237,7 +232,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -257,7 +252,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -277,7 +272,7 @@ Object {
               </svg>
             </a>
             <a
-              class="text-gray-800"
+              class="text-gray"
               href="#!"
             >
               <svg
@@ -299,16 +294,16 @@ Object {
           </div>
         </div>
         <div
-          class="text-center text-gray-700 p-4"
+          class="text-center text-gray p-4 w-full"
           style="background-color: rgba(0, 0, 0, 0.2);"
         >
           © 2021 Copyright:
            
           <a
-            class="text-gray-800"
-            href="https://github.com/acedavon/"
+            class="text-white"
+            href="https://github.com/GhislainMitahi/"
           >
-            Makoji David
+            Ghislain Mitahi
           </a>
         </div>
       </footer>
@@ -317,10 +312,10 @@ Object {
   "container": <div>
     <div>
       <section
-        class="mb-10"
+        class="mb-10 bg-[#fe5395]"
       >
         <nav
-          class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between"
+          class="navbar navbar-expand-lg shadow-md py-2 bg-[#ec4c8b] relative flex items-center w-full justify-between text-white"
         >
           <div
             class="px-6 w-full flex flex-wrap items-center justify-between"
@@ -339,7 +334,7 @@ Object {
               >
                 <svg
                   aria-hidden="true"
-                  class="w-5"
+                  class="w-5 text-white"
                   data-prefix="fas"
                   focusable="false"
                   role="img"
@@ -357,7 +352,7 @@ Object {
                 href="/"
               >
                 <svg
-                  class="w-5 h-5 ml-2 lg:ml-0 mr-2"
+                  class="w-5 h-5 ml-2 lg:ml-0 mr-2 text-white"
                   viewBox="0 0 576 512"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -379,8 +374,7 @@ Object {
                   class="nav-item"
                 >
                   <a
-                    class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                    data-mdb-ripple="true"
+                    class="nav-link block pr-2 lg:px-2 py-2 tex-white focus:text-white transition duration-150 ease-in-out"
                     data-mdb-ripple-color="light"
                     href="#!"
                   >
@@ -391,8 +385,7 @@ Object {
                   class="nav-item"
                 >
                   <a
-                    class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                    data-mdb-ripple="true"
+                    class="nav-link block pr-2 lg:px-2 py-2 text-white focus:text-white transition duration-150 ease-in-out"
                     data-mdb-ripple-color="light"
                     href="#!"
                   >
@@ -403,8 +396,7 @@ Object {
                   class="nav-item mb-2 lg:mb-0"
                 >
                   <a
-                    class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                    data-mdb-ripple="true"
+                    class="nav-link block pr-2 lg:px-2 py-2 text-wite focus:text-wite transition duration-150 ease-in-out"
                     data-mdb-ripple-color="light"
                     href="#!"
                   >
@@ -417,15 +409,14 @@ Object {
               class="flex items-center lg:ml-auto"
             >
               <button
-                class="inline-block px-6 py-2.5 mr-2 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
-                data-mdb-ripple="true"
+                class="inline-block px-6 py-2.5 mr-2 bg-transparent text-white font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
                 data-mdb-ripple-color="light"
                 type="button"
               >
                 Login
               </button>
               <button
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-2.5 bg-white text-blue-600 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                 type="button"
               >
                 Sign up for free
@@ -435,7 +426,6 @@ Object {
         </nav>
         <div
           class="relative overflow-hidden bg-no-repeat bg-cover"
-          style="background-position: 50%; background-image: url(https://mdbootstrap.com/img/new/textures/full/142.jpg); height: 300px;"
         />
         <div
           class="container mx-auto px-6 md:px-12 xl:px-32"
@@ -445,16 +435,16 @@ Object {
           >
             <div
               class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
-              style="margin-top: -170px; background: rgba(255, 255, 255, 0.7);"
+              style="margin-top: 80px; background: rgb(236, 76, 139);"
             >
               <h1
-                class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white"
               >
-                The best offer on the market
+                The best offer on the selling
                  
                 <br />
                 <span
-                  class="text-blue-600"
+                  class="text-white"
                 >
                   for your experience
                 </span>
@@ -477,8 +467,8 @@ Object {
       </section>
     </div>
     <footer
-      class="text-center text-white"
-      style="background-color: rgb(241, 241, 241);"
+      class="flex justify-center flex-col items-center text-white"
+      style="background-color: rgb(209, 68, 122);"
     >
       <div
         class="container pt-9"
@@ -487,7 +477,7 @@ Object {
           class="flex justify-center mb-9"
         >
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -507,7 +497,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -527,7 +517,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -547,7 +537,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -567,7 +557,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -587,7 +577,7 @@ Object {
             </svg>
           </a>
           <a
-            class="text-gray-800"
+            class="text-gray"
             href="#!"
           >
             <svg
@@ -609,16 +599,16 @@ Object {
         </div>
       </div>
       <div
-        class="text-center text-gray-700 p-4"
+        class="text-center text-gray p-4 w-full"
         style="background-color: rgba(0, 0, 0, 0.2);"
       >
         © 2021 Copyright:
          
         <a
-          class="text-gray-800"
-          href="https://github.com/acedavon/"
+          class="text-white"
+          href="https://github.com/GhislainMitahi/"
         >
-          Makoji David
+          Ghislain Mitahi
         </a>
       </div>
     </footer>
@@ -684,10 +674,10 @@ Object {
     <div>
       <div>
         <section
-          class="mb-10"
+          class="mb-10 bg-[#fe5395]"
         >
           <nav
-            class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between"
+            class="navbar navbar-expand-lg shadow-md py-2 bg-[#ec4c8b] relative flex items-center w-full justify-between text-white"
           >
             <div
               class="px-6 w-full flex flex-wrap items-center justify-between"
@@ -706,7 +696,7 @@ Object {
                 >
                   <svg
                     aria-hidden="true"
-                    class="w-5"
+                    class="w-5 text-white"
                     data-prefix="fas"
                     focusable="false"
                     role="img"
@@ -724,7 +714,7 @@ Object {
                   href="/"
                 >
                   <svg
-                    class="w-5 h-5 ml-2 lg:ml-0 mr-2"
+                    class="w-5 h-5 ml-2 lg:ml-0 mr-2 text-white"
                     viewBox="0 0 576 512"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -746,8 +736,7 @@ Object {
                     class="nav-item"
                   >
                     <a
-                      class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                      data-mdb-ripple="true"
+                      class="nav-link block pr-2 lg:px-2 py-2 tex-white focus:text-white transition duration-150 ease-in-out"
                       data-mdb-ripple-color="light"
                       href="#!"
                     >
@@ -758,8 +747,7 @@ Object {
                     class="nav-item"
                   >
                     <a
-                      class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                      data-mdb-ripple="true"
+                      class="nav-link block pr-2 lg:px-2 py-2 text-white focus:text-white transition duration-150 ease-in-out"
                       data-mdb-ripple-color="light"
                       href="#!"
                     >
@@ -770,8 +758,7 @@ Object {
                     class="nav-item mb-2 lg:mb-0"
                   >
                     <a
-                      class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                      data-mdb-ripple="true"
+                      class="nav-link block pr-2 lg:px-2 py-2 text-wite focus:text-wite transition duration-150 ease-in-out"
                       data-mdb-ripple-color="light"
                       href="#!"
                     >
@@ -784,15 +771,14 @@ Object {
                 class="flex items-center lg:ml-auto"
               >
                 <button
-                  class="inline-block px-6 py-2.5 mr-2 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
-                  data-mdb-ripple="true"
+                  class="inline-block px-6 py-2.5 mr-2 bg-transparent text-white font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
                   data-mdb-ripple-color="light"
                   type="button"
                 >
                   Login
                 </button>
                 <button
-                  class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                  class="inline-block px-6 py-2.5 bg-white text-blue-600 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                   type="button"
                 >
                   Sign up for free
@@ -802,7 +788,6 @@ Object {
           </nav>
           <div
             class="relative overflow-hidden bg-no-repeat bg-cover"
-            style="background-position: 50%; background-image: url(https://mdbootstrap.com/img/new/textures/full/142.jpg); height: 300px;"
           />
           <div
             class="container mx-auto px-6 md:px-12 xl:px-32"
@@ -812,16 +797,16 @@ Object {
             >
               <div
                 class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
-                style="margin-top: -170px; background: rgba(255, 255, 255, 0.7);"
+                style="margin-top: 80px; background: rgb(236, 76, 139);"
               >
                 <h1
-                  class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                  class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white"
                 >
-                  The best offer on the market
+                  The best offer on the selling
                    
                   <br />
                   <span
-                    class="text-blue-600"
+                    class="text-white"
                   >
                     for your experience
                   </span>
@@ -844,17 +829,17 @@ Object {
         </section>
       </div>
       <h2
-        class="text-blue-600 text-center text-4xl font-bold"
+        class="text-white text-center text-4xl font-bold"
       >
         Jobs Category
       </h2>
       <p
-        class="text-center capitalize font-thin text-slate-400"
+        class="text-center capitalize font-thin text-white"
       >
         -- Browse jobs by category --
       </p>
       <div
-        class="flex justify-center my-4 gap-2 flex-wrap px-6"
+        class="flex bg-[#fe5395] justify-center my-4 gap-2 flex-wrap px-6 "
       >
         <div
           class="flex justify-center items-center space-x-2 absolute top-1/2"
@@ -932,8 +917,8 @@ Object {
         </div>
       </div>
       <footer
-        class="text-center text-white"
-        style="background-color: rgb(241, 241, 241);"
+        class="flex justify-center flex-col items-center text-white"
+        style="background-color: rgb(209, 68, 122);"
       >
         <div
           class="container pt-9"
@@ -942,7 +927,7 @@ Object {
             class="flex justify-center mb-9"
           >
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -962,7 +947,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -982,7 +967,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -1002,7 +987,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -1022,7 +1007,7 @@ Object {
               </svg>
             </a>
             <a
-              class="mr-9 text-gray-800"
+              class="mr-9 text-gray"
               href="#!"
             >
               <svg
@@ -1042,7 +1027,7 @@ Object {
               </svg>
             </a>
             <a
-              class="text-gray-800"
+              class="text-gray"
               href="#!"
             >
               <svg
@@ -1064,16 +1049,16 @@ Object {
           </div>
         </div>
         <div
-          class="text-center text-gray-700 p-4"
+          class="text-center text-gray p-4 w-full"
           style="background-color: rgba(0, 0, 0, 0.2);"
         >
           © 2021 Copyright:
            
           <a
-            class="text-gray-800"
-            href="https://github.com/acedavon/"
+            class="text-white"
+            href="https://github.com/GhislainMitahi/"
           >
-            Makoji David
+            Ghislain Mitahi
           </a>
         </div>
       </footer>
@@ -1082,10 +1067,10 @@ Object {
   "container": <div>
     <div>
       <section
-        class="mb-10"
+        class="mb-10 bg-[#fe5395]"
       >
         <nav
-          class="navbar navbar-expand-lg shadow-md py-2 bg-white relative flex items-center w-full justify-between"
+          class="navbar navbar-expand-lg shadow-md py-2 bg-[#ec4c8b] relative flex items-center w-full justify-between text-white"
         >
           <div
             class="px-6 w-full flex flex-wrap items-center justify-between"
@@ -1104,7 +1089,7 @@ Object {
               >
                 <svg
                   aria-hidden="true"
-                  class="w-5"
+                  class="w-5 text-white"
                   data-prefix="fas"
                   focusable="false"
                   role="img"
@@ -1122,7 +1107,7 @@ Object {
                 href="/"
               >
                 <svg
-                  class="w-5 h-5 ml-2 lg:ml-0 mr-2"
+                  class="w-5 h-5 ml-2 lg:ml-0 mr-2 text-white"
                   viewBox="0 0 576 512"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -1144,8 +1129,7 @@ Object {
                   class="nav-item"
                 >
                   <a
-                    class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                    data-mdb-ripple="true"
+                    class="nav-link block pr-2 lg:px-2 py-2 tex-white focus:text-white transition duration-150 ease-in-out"
                     data-mdb-ripple-color="light"
                     href="#!"
                   >
@@ -1156,8 +1140,7 @@ Object {
                   class="nav-item"
                 >
                   <a
-                    class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                    data-mdb-ripple="true"
+                    class="nav-link block pr-2 lg:px-2 py-2 text-white focus:text-white transition duration-150 ease-in-out"
                     data-mdb-ripple-color="light"
                     href="#!"
                   >
@@ -1168,8 +1151,7 @@ Object {
                   class="nav-item mb-2 lg:mb-0"
                 >
                   <a
-                    class="nav-link block pr-2 lg:px-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700 transition duration-150 ease-in-out"
-                    data-mdb-ripple="true"
+                    class="nav-link block pr-2 lg:px-2 py-2 text-wite focus:text-wite transition duration-150 ease-in-out"
                     data-mdb-ripple-color="light"
                     href="#!"
                   >
@@ -1182,15 +1164,14 @@ Object {
               class="flex items-center lg:ml-auto"
             >
               <button
-                class="inline-block px-6 py-2.5 mr-2 bg-transparent text-blue-600 font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
-                data-mdb-ripple="true"
+                class="inline-block px-6 py-2.5 mr-2 bg-transparent text-white font-medium text-xs leading-tight uppercase rounded hover:text-blue-700 hover:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 transition duration-150 ease-in-out"
                 data-mdb-ripple-color="light"
                 type="button"
               >
                 Login
               </button>
               <button
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-2.5 bg-white text-blue-600 font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
                 type="button"
               >
                 Sign up for free
@@ -1200,7 +1181,6 @@ Object {
         </nav>
         <div
           class="relative overflow-hidden bg-no-repeat bg-cover"
-          style="background-position: 50%; background-image: url(https://mdbootstrap.com/img/new/textures/full/142.jpg); height: 300px;"
         />
         <div
           class="container mx-auto px-6 md:px-12 xl:px-32"
@@ -1210,16 +1190,16 @@ Object {
           >
             <div
               class="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
-              style="margin-top: -170px; background: rgba(255, 255, 255, 0.7);"
+              style="margin-top: 80px; background: rgb(236, 76, 139);"
             >
               <h1
-                class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12"
+                class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-white"
               >
-                The best offer on the market
+                The best offer on the selling
                  
                 <br />
                 <span
-                  class="text-blue-600"
+                  class="text-white"
                 >
                   for your experience
                 </span>
@@ -1242,17 +1222,17 @@ Object {
       </section>
     </div>
     <h2
-      class="text-blue-600 text-center text-4xl font-bold"
+      class="text-white text-center text-4xl font-bold"
     >
       Jobs Category
     </h2>
     <p
-      class="text-center capitalize font-thin text-slate-400"
+      class="text-center capitalize font-thin text-white"
     >
       -- Browse jobs by category --
     </p>
     <div
-      class="flex justify-center my-4 gap-2 flex-wrap px-6"
+      class="flex bg-[#fe5395] justify-center my-4 gap-2 flex-wrap px-6 "
     >
       <div
         class="flex justify-center items-center space-x-2 absolute top-1/2"
@@ -1330,8 +1310,8 @@ Object {
       </div>
     </div>
     <footer
-      class="text-center text-white"
-      style="background-color: rgb(241, 241, 241);"
+      class="flex justify-center flex-col items-center text-white"
+      style="background-color: rgb(209, 68, 122);"
     >
       <div
         class="container pt-9"
@@ -1340,7 +1320,7 @@ Object {
           class="flex justify-center mb-9"
         >
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -1360,7 +1340,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -1380,7 +1360,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -1400,7 +1380,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -1420,7 +1400,7 @@ Object {
             </svg>
           </a>
           <a
-            class="mr-9 text-gray-800"
+            class="mr-9 text-gray"
             href="#!"
           >
             <svg
@@ -1440,7 +1420,7 @@ Object {
             </svg>
           </a>
           <a
-            class="text-gray-800"
+            class="text-gray"
             href="#!"
           >
             <svg
@@ -1462,16 +1442,16 @@ Object {
         </div>
       </div>
       <div
-        class="text-center text-gray-700 p-4"
+        class="text-center text-gray p-4 w-full"
         style="background-color: rgba(0, 0, 0, 0.2);"
       >
         © 2021 Copyright:
          
         <a
-          class="text-gray-800"
-          href="https://github.com/acedavon/"
+          class="text-white"
+          href="https://github.com/GhislainMitahi/"
         >
-          Makoji David
+          Ghislain Mitahi
         </a>
       </div>
     </footer>
