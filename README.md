@@ -3,7 +3,8 @@
 # saller
 
 
-> This is an Educational Project for the Microverse Module 3 (React-Redux) capstone. It is built with React, Redux/Toolkit, TailwindCSS, Tailwind Elements and React Linters for enforcing standard coding react coding practice. The Project is aimed at fetching API data, displaying same and query the API endpoints for searched data for Job listings in different countries in Europe and also in South Africa. This project is MIT Licensed
+> This is an Educational Project for the Microverse Module 3 (React-Redux) capstone. It's built with React, Redux/Toolkit, TailwindCSS, Tailwind Elements and React Linters for enforcing standard coding react coding practice. The Project is aimed at fetching API data, displaying same and query the API endpoints for searched data for Job listings in different countries in Europe and also in South Africa. 
+This project is MIT Licensed
 
 
 ## Built With
