@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple example steps.
 ### Video presentation
 
 > [GDR Video](https://drive.google.com/file/d/1oJxEXHWxheMXAQ09I034DUrJiyb6-qaR/view?usp=sharing)
-## Authors
+## Author
 
 👤 **GHislain Mitahi**
 
