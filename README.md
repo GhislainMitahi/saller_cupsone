@@ -11,7 +11,7 @@ This project is MIT Licensed
 
 - JavaScript
 - ReactJs, tailwindCSS
-- Git, GitHub, Git workflow, Jest
+- Git, GitHub, Git workflow and Jest
 
 ## Getting Started
 
